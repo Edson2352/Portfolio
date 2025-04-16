@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Edson.png" alt="avatar do Edson" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Edson_</p>
+        <h1>Eu jogo videogames</h1>
+        <p>Sou viciado em videogames e um grande fã do Hideo Kojima e do Hakita.</p>
+        <p>Jogos Favoritos</p>
+        <div>
+            <p class="badge bg-secondary">ULTRAKILL</p>
+            <p class="badge bg-secondary">Cyberpunk 2077</p>
+            <p class="badge bg-secondary">Death Stranding</p>
+            <p class="badge bg-secondary">Voices of the Void</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Sobre mim</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Jogo_fav.png" class="card-img-top" alt="Imagem do ULTRAKILL">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo #1: ULTRAKILL</h5>
+                        <p class="card-text">Ultrakill é um jogo de tiro em primeira pessoa de ritmo acelerado com ênfase em movimento e técnicas sofisticadas. O jogador deve percorrer uma interpretação das camadas do Inferno de Dante , com três atos, cada um composto por três camadas divididas em vários níveis .
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Hideo Kojima.webp" class="card-img-top" alt="Imagem do Hideo Kojima">
+                    <div class="card-body">
+                        <h5 class="card-title">Designer de jogos favorito: Hideo Kojima</h5>
+                        <p class="card-text">Hideo Kojima é um designer japonês de jogos eletrônicos que trabalhou para a Konami. Foi 
+                            vice-presidente da Konami Computer Entertainment Japan e é o diretor-executivo e chefe de 
+                            estúdio da Kojima Productions, que foi fundada em 2005 e renovada em 2015 por ele.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja mais</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Hakita.jfif" class="card-img-top" alt="Imagem do Hakita">
+                    <div class="card-body">
+                        <h5 class="card-title">Criador de jogos indie favorito: Hakita</h5>
+                        <p class="card-text">Arsi "Hakita" Patala é um desenvolvedor independente de jogos e compositor finlandês, mais
+                                             conhecido por ser o criador de ULTRAKILL, um jogo de tiro em primeira pessoa lançado em 2 de setembro de 2020. Além de programar o jogo, ele também compôs sua trilha sonora, destacando-se pela fusão de elementos de jogos clássicos como Quake e Doom com mecânicas modernas e uma estética retrô.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sobre o ULTRAKILL:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O jogador luta contra inimigos usando um arsenal de armas, tendo um ataque primário e
+                       alternativo, e vários braços robóticos. Estes têm interações únicas entre si, invocando os
+                       ataques combinados de jogos como Devil May Cry . Muitas das técnicas avançadas do jogo são
+                       resultado da combinação de vários elementos do arsenal do jogador. Para encorajar uma jogabilidade
+                       agressiva, o jogador pode curar absorvendo o sangue dos inimigos através de combate de curta
+                       distância ou aparando ataques inimigos. O desempenho do jogador é julgado por um "medidor de estilo",
+                       semelhante a jogos como Devil May Cry . O medidor de estilo recompensa o jogador por realizar
+                       movimentos avançados e chamativos, além de encorajar manobras aéreas e troca rápida de armas.</p>
+                    <p>Ao final de cada nível, a classificação de estilo do jogador é combinada com o tempo gasto e
+                         o número de abates para determinar uma nota para aquela fase. Alcançar uma classificação S
+                         em todas as três categorias sem morrer durante a fase garantirá ao jogador uma
+                         classificação P (Perfeito), a classificação mais alta possível para uma fase.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                       principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
+                       flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
+                       imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
+                       uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                       tela.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
+                    <img src="img/Jogo_fav.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://store.steampowered.com/app/1229490/ULTRAKILL/">Ver página do jogo na Steam</a>
+                    <a href="https://en.wikipedia.org/wiki/Ultrakill">Ver wikipedia do jogo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sobre o Hideo Kojima:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Hideo Kojima (小島 秀夫, Kojima Hideo, 24 de agosto de 1963) é um designer japonês de jogos
+                       eletrônicos que trabalhou para a Konami. Foi vice-presidente da Konami Computer Entertainment
+                       Japan e é o diretor-executivo e chefe de estúdio da Kojima Productions, que foi fundada em 2005
+                       e renovada em 2015 por ele.[1] Hideo é o criador e diretor de várias séries de jogos populares,
+                       incluindo a série Metal Gear, Snatcher e Policenauts, além de Zone of the Enders e Boktai.[2]
+                       Kojima é constantemente reconhecido por fãs e especialistas da indústria de videogame como um
+                       dos mais influentes e inovadores diretores e roteiristas de jogos eletrônicos de todos os
+                       tempos, bem como estrelando em várias listas de top 10 diretores. Em 2008, a Next-Gen o colocou
+                       na sétima posição na sua lista de "Hot 100 Developer 2008",[3] enquanto que foi premiado
+                       com o "Lifetime Achievement Award" na MTV Game Awards 2008 e também homenageado com um
+                       "Lifetime Achievement Award" na Game Developers Conference de 2009.[4]</p>
+                    <img src="img/Hideo Kojima.webp" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://x.com/HIDEO_KOJIMA_EN">Página do Twitter (X)</a>
+                    <a href="https://www.kojimaproductions.jp/en">Ver site da Kojima Productions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sobre o Hakita:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Patala iniciou sua carreira no desenvolvimento de jogos em 2020 e trabalhou em colaboração
+                       com a New Blood Interactive, uma editora conhecida por apoiar projetos indie inovadores.
+                       Embora ULTRAKILL seja seu único jogo creditado até o momento, ele tem se destacado na cena de jogos independentes.</p>
+                    <p>Em junho de 2024, Patala expressou publicamente sua visão sobre a pirataria de jogos.
+                       Ele afirmou que, embora seja importante apoiar financeiramente os jogos independentes quando
+                       possível, a cultura não deve ser acessível apenas para aqueles que podem pagar por ela.
+                       Ele acredita que a pirataria pode ajudar a divulgar os jogos, gerando mais vendas no futuro.</p>
+                    <p>Patala também é ativo nas redes sociais, onde compartilha atualizações sobre seus projetos
+                       e interage com a comunidade de jogadores. Sua abordagem única e sua disposição para desafiar
+                       normas estabelecidas o tornaram uma figura respeitada no mundo dos jogos independentes.</p>
+                    <img src="img/Hakita.jfif" alt="Hakita" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://x.com/hakitadev">Página do Twitter (X)</a>
+                    <a href="https://www.youtube.com/hakita">Canal do YouTube</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Edson2352">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Edson Leandro Kerneski</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
